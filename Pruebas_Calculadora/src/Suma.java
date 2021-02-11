@@ -8,4 +8,15 @@
 
 	public class Suma {
 
+		/**
+		 * Método para sumar dos nº reales.
+		 * @param num1 Primer nº real que sea >= 0
+		 * @param num2 Segundo nº real que sea >= 0
+		 * La salida será la suma de ambos nº.
+		 * @return num1 + num2
+		 */ 
+		
+		public double sumaDosReales (double num1, double num2){
+			return num1 + num2;
+		}
 }
