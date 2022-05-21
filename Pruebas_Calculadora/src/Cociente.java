@@ -13,6 +13,7 @@
 public class Cociente {
     public static void main(String[] args) {
         system.out.println("Hola");
+        Int numero = 5;
         
 
     }
