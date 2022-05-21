@@ -1,31 +1,31 @@
 /**
  * Esta es una clase del proyecto Calculadora que realiza operaciones
  * 
- * @author Carlos Rabinal Mínguez
+ * @author Carlos Rabinal Mï¿½nguez
  * @version 1.0
  * @since 30/01/2021
  * 
- * CASO ESPECIAL: Si la calculadora no pudiera utilizar números negativos,
- * mostraremos un mensaje por pantalla para advertir que sólo podemos introducir números positivos
+ * CASO ESPECIAL: Si la calculadora no pudiera utilizar nï¿½meros negativos,
+ * mostraremos un mensaje por pantalla para advertir que sï¿½lo podemos introducir nï¿½meros positivos
  *
  * 
  */
 public class Operacion {
 	
 /**
- * Este es un método constructor vacío (sin parámetros)
+ * Este es un mï¿½todo constructor vacï¿½o (sin parï¿½metros)
  */
 	public Operacion() {
 		super();
 	}
 	
 /**
- * Este es el método booleano para calcular si un número es primo o no
+ * Este es el mï¿½todo booleano para calcular si un nï¿½mero es primo o no
  * 
- * @param n es el parámetro que introducimos para averiguar si dicho número es primo o no
- * @return true si el número es primo y false si no es número primo
+ * @param n es el parï¿½metro que introducimos para averiguar si dicho nï¿½mero es primo o no
+ * @return true si el nï¿½mero es primo y false si no es nï¿½mero primo
  * 
- *  CASO ESPECIAL: Si introducimos un cero como parámetro, el método nos devuelve false
+ *  CASO ESPECIAL: Si introducimos un cero como parï¿½metro, el mï¿½todo nos devuelve false
  */
 	public boolean esPrimo(int n){
 	    int a = 0;
@@ -37,5 +37,9 @@ public class Operacion {
 	         else 
 	          return true;
     }
+
+	public void Saludo () {
+		system.out.println("Hola");
+	}
 
 }
