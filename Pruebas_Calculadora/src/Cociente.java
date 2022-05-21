@@ -4,12 +4,19 @@
  *@version 1.0
  *@since 01/02/2021
  *
- * CASO ESPECIAL: Si nos introducen números negativos, mostraremos un mensaje por pantalla 
- * indicando que sólo funciona con números positivos
+ * CASO ESPECIAL: Si nos introducen nï¿½meros negativos, mostraremos un mensaje por pantalla 
+ * indicando que sï¿½lo funciona con nï¿½meros positivos
  *  
- * CASO ESPECIAL: Si la división devuelve un resto diferente a 0, significa que esta no es exacta.
+ * CASO ESPECIAL: Si la divisiï¿½n devuelve un resto diferente a 0, significa que esta no es exacta.
  */ 
 
 public class Cociente {
+    public static void main(String[] args) {
+        system.out.println("Hola");
+        
+
+    }
+
+
 
 }
